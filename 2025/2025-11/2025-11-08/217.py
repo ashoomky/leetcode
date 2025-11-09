@@ -1,6 +1,14 @@
 class Solution(object):
     def containsDuplicate(self, nums):
-        return
+        dic = {}
+
+        for n in nums:
+            if n in dic:
+                return True
+            else:
+                dic[n] = 1
+
+        return False
 
 nums = [1,2,3,1]
 solution = Solution()
