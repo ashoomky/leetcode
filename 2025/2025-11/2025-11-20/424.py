@@ -5,7 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-
+        # initialise variables
         l = 0
         count = {}
         res = 0
